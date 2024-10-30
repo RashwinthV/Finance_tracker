@@ -22,3 +22,35 @@
 .bg-purple{
   background-color: var(--color-purple);
 }
+.chart .title{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 43%;
+ margin-left: -62%;
+}
+
+.input-group{
+  border: solid 1.5px gray;
+  border-radius: 4px;
+  outline: none;
+}
+.form-select{
+  border: solid 1.5px gray;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:750px){
+  .chart .title{
+    top: 35%;
+    margin-left: -10%;
+  }
+}
